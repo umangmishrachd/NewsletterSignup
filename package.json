@@ -1,0 +1,19 @@
+{
+  "name": "newsletter-signup",
+  "version": "1.0.0",
+  "description": "This is newsletter signup app",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Umang Mishra",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.2",
+    "express": "^4.17.3",
+    "heroku": "^7.59.4",
+    "nodemon": "^2.0.15",
+    "request": "^2.88.2"
+  }
+}
